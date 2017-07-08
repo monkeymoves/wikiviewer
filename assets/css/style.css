@@ -3,8 +3,12 @@
 /* Import fonts */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
-
-
+.jumbotron {
+   background: rgba(200, 200, 200, 0.5); 
+}
+#wellId{
+    display:none;
+}
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -30,4 +34,8 @@ body {
     left: 50%;
     margin-left: -50px; /* margin is -0.5 * dimension */
     margin-top: -25px; 
-}​
+}
+
+button {
+    margin: 0.5%;
+}

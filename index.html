@@ -24,29 +24,32 @@
 </head>
 
 <body id='h'>
-
+<br><br>
     <section>
-        <div class="container" >
+        <div class="container jumbotron" >
            
             <h1> Wiki API Search</h1>
-            </div>
-        <div class="container vertical-center">
+           
+        <div class="container text-left">
 
+
+            <input class="form-control" id="searchTerm" placeholder="Enter your Wiki search terms">
             <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
                 <button type="button" class="btn btn-danger">Random Article!</button>
             </a>
+            <button id="searchButton" type="button" class="btn btn-success"> Submit Wiki Query!</button>
+            <button id="clearButton" type="button" class="btn btn-info"> Clear All Queries </button>
 
-            <input class="form-control" id="searchTerm" placeholder="Enter your Wiki search terms">
-            <button id="searchButton" type="button" class="btn btn-success"> Submit</button>
 
-        </div>
-
-        <div>
+        <div class="container"> 
+        <div class="well" id="wellId">
+            
             <ul id="output">
-                <li>  </li>
             </ul>
         </div>
-
+            </div>
+        </div>
+ </div>
     </section>
  
 

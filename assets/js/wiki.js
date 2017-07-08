@@ -1,7 +1,12 @@
 $(document).ready(function () {
 
-
+  $("#clearButton").click(function () {
+         $("#wellId").css("display", "none");
+       
+    });
     $("#searchButton").click(function () {
+        
+        $("#wellId").css("display", "block");
 
         var searchTerm = $('#searchTerm').val();
 
@@ -41,6 +46,9 @@ $(document).ready(function () {
 
 
 });
+
+  
+
 
 
 $(document).keypress(function (e) {
